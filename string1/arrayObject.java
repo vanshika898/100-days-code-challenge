@@ -17,7 +17,7 @@ public class arrayObject {
         b[3].setWattage(20);
         b[4].setWattage(20);
 
-        System.out.println("gettinh wattages:");
+        System.out.println("getting wattages:");
         for (int i = 0; i < b.length; i++) {
             System.out.println(b[i].getWattage());
         }
