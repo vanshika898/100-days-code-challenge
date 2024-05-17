@@ -1,14 +1,20 @@
 public class q1 {
     public static void main(String[] args) {
-        System.out.println("-----------------------------------");
-        aaa<bulb> a1 = new aaa<bulb>();
-        a1.setContent(new bulb(30));
-        bulb b = a1.getContent();
-        System.out.printf("wattage is :" + b.getWattage());
-        aaa<Toy> a2 = new aaa<Toy>();
-        a2.setContent(new Toy(100));
-        Toy t = a2.getContent();
-        System.out.printf("\npricee is :" + t.getprice());
+        // System.out.println("-----------------------------------");
+        // aaa<bulb> a1 = new aaa<bulb>();
+        // a1.setContent(new bulb(30));
+        // bulb b = a1.getContent();
+        // System.out.printf("wattage is :" + b.getWattage());
+        // aaa<Toy> a2 = new aaa<Toy>();
+        // a2.setContent(new Toy(100));
+        // Toy t = a2.getContent();
+        // System.out.printf("\npricee is :" + t.getprice());
+        // System.out.println("-------------------------------------");
+        aaa<Integer> c1 = new aaa<Integer>();
+        c1.setContent(new Integer(60));
+        Integer u = c1.getContent();
+        int x = u.intValue();
+        System.out.println(x);
 
     }
 }
