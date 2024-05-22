@@ -1,0 +1,13 @@
+package p;
+
+import pack.com.vanshika.nigam.aaa;
+
+public class eee {
+    public void tr() {
+        aaa a = new aaa();
+        // a.x=20;
+        // a.z=20;
+        a.k = 30;
+        // a.y=10;
+    }
+}
