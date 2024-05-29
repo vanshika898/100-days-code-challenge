@@ -1,4 +1,4 @@
-//Print Number in increasing order  
+// Print Number in increasing order  
 public class q1 {
     public static void rec(int n) {
         if (n == 1) {
@@ -11,6 +11,7 @@ public class q1 {
 
     public static void main(String[] args) {
         int k = 10;
+
         rec(k);
 
     }

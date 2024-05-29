@@ -1,6 +1,6 @@
 //System is the class Out is the public static variable of class system and println is the method
 // basically out is the pointer that point printStream object  have println method that accept (string,float etc). 
-//According  to this example printStream --> aaa   System ---> bbb
+//According  to this example printStream --> aaa   System ---> bbb ;
 
 class aaa {
     public void sam(int e) {
