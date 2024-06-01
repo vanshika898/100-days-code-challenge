@@ -7,7 +7,7 @@ public class Stocks {
         s.push(0);
         for (int i = 1; i < stocks.length; i++) {
             int currPrice = stocks[i];
-            while (!s.isEmpty() && currPrice > stocks[s.peek()]) {
+            while (!s.isEmpty() && currPrice >= stocks[s.peek()]) {
                 s.pop();
             }
             if (s.isEmpty()) {
