@@ -60,6 +60,7 @@ public class MemberMannager {
                 randomAccessFile.readLine();
                 randomAccessFile.readLine();
                 randomAccessFile.readLine();
+
             }
             randomAccessFile.writeBytes(moblieNumber);
             randomAccessFile.writeBytes("\n");
@@ -68,7 +69,6 @@ public class MemberMannager {
             randomAccessFile.writeBytes(course);
             randomAccessFile.writeBytes("\n");
             randomAccessFile.writeByte(fee);
-
             randomAccessFile.writeBytes("\n");
             randomAccessFile.writeBytes("-------------------------------------------------------");
             randomAccessFile.close();
@@ -86,11 +86,10 @@ public class MemberMannager {
 
     }
 
-    private static void getAll(String[] data) {
-
+    private static void getAll() {
         try {
             File file = new File(DATA_FILE);
-            if (file.exists() == false) {
+            if (!file.exists()) {
                 System.out.println("No members");
                 return;
             }
@@ -100,6 +99,7 @@ public class MemberMannager {
                 System.out.println("No member");
                 return;
             }
+
             String name;
             String mobileNumber;
             String Course;
@@ -112,18 +112,16 @@ public class MemberMannager {
                 name = randomAccessFile.readLine();
                 Course = randomAccessFile.readLine();
                 fee = Integer.parseInt(randomAccessFile.readLine());
+
                 System.out.printf("%s %s %s %d\n", mobileNumber, name, Course, fee);
                 totalFee += fee;
                 memberCount += 1;
-
             }
             randomAccessFile.close();
-            System.out.println("total registrations:" + memberCount);
-            System.out.println("total fee got :" + totalFee);
-
+            System.out.println("Total registrations: " + memberCount);
+            System.out.println("Total fee collected: " + totalFee);
         } catch (IOException ioe) {
             System.out.println(ioe.getMessage());
-
         }
     }
 
@@ -266,7 +264,7 @@ public class MemberMannager {
         } else {
         }
         if (operation.equalsIgnoreCase("getAll")) {
-            getAll(args);
+            getAll();
         } else {
         }
         if (operation.equalsIgnoreCase("getByContactNumber")) {
