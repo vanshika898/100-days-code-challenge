@@ -1,0 +1,413 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Reversed",
+            "request": "launch",
+            "mainClass": "Reversed",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "InterLeave",
+            "request": "launch",
+            "mainClass": "InterLeave",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Analyzer",
+            "request": "launch",
+            "mainClass": "Analyzer",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "compare",
+            "request": "launch",
+            "mainClass": "Constructor.compare",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "defaultC",
+            "request": "launch",
+            "mainClass": "Constructor.defaultC",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "keywordThis",
+            "request": "launch",
+            "mainClass": "Constructor.keywordThis",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "someConditions",
+            "request": "launch",
+            "mainClass": "Constructor.someConditions",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "InputSimple",
+            "request": "launch",
+            "mainClass": "Input.InputSimple",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "inputS",
+            "request": "launch",
+            "mainClass": "Input.inputS",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "LeftGreater",
+            "request": "launch",
+            "mainClass": "LeftGreater",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "LeftSmaller",
+            "request": "launch",
+            "mainClass": "LeftSmaller",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "MemberMannager",
+            "request": "launch",
+            "mainClass": "MemberMannager",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Parenthesis",
+            "request": "launch",
+            "mainClass": "Parenthesis",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "cyclicqueue",
+            "request": "launch",
+            "mainClass": "Queue.cyclicqueue",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "queues",
+            "request": "launch",
+            "mainClass": "Queue.queues",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "reversed",
+            "request": "launch",
+            "mainClass": "Queue.reversed",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "RightGreater",
+            "request": "launch",
+            "mainClass": "RightGreater",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "RightSmaller",
+            "request": "launch",
+            "mainClass": "RightSmaller",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Stackb",
+            "request": "launch",
+            "mainClass": "Stackb",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Stocks",
+            "request": "launch",
+            "mainClass": "Stocks",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "arrayObject",
+            "request": "launch",
+            "mainClass": "arrayObject",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "aaa",
+            "request": "launch",
+            "mainClass": "encapsulation.aaa",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "en2",
+            "request": "launch",
+            "mainClass": "encapsulation.en2",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "en3",
+            "request": "launch",
+            "mainClass": "encapsulation.en3",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "encapsulation",
+            "request": "launch",
+            "mainClass": "encapsulation.encapsulation",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Employ",
+            "request": "launch",
+            "mainClass": "generic.Employ",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "b",
+            "request": "launch",
+            "mainClass": "generic.b",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "inter",
+            "request": "launch",
+            "mainClass": "generic.inter",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "inheritance.Dog",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "dd",
+            "request": "launch",
+            "mainClass": "inheritance.dd",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "interitance",
+            "request": "launch",
+            "mainClass": "inheritance.interitance",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "initializerBlocks.q1",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "KeyboardTestCase",
+            "request": "launch",
+            "mainClass": "javatools.common.testcases.KeyboardTestCase",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "objectVarible",
+            "request": "launch",
+            "mainClass": "objectVarible",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "parentis2",
+            "request": "launch",
+            "mainClass": "parentis2",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "polymorphism",
+            "request": "launch",
+            "mainClass": "polymorphism.polymorphism",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "puc",
+            "request": "launch",
+            "mainClass": "puc",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "pushBottom",
+            "request": "launch",
+            "mainClass": "pushBottom",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "q1(1)",
+            "request": "launch",
+            "mainClass": "q1",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "q2",
+            "request": "launch",
+            "mainClass": "q2",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "q5",
+            "request": "launch",
+            "mainClass": "q5",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "queue",
+            "request": "launch",
+            "mainClass": "queue",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "queueStak",
+            "request": "launch",
+            "mainClass": "stackUsingQueue.queueStak",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "stackQueue",
+            "request": "launch",
+            "mainClass": "stackUsingQueue.stackQueue",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "q1(2)",
+            "request": "launch",
+            "mainClass": "staticInitalizerBlock.q1",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "arr",
+            "request": "launch",
+            "mainClass": "string2.arr",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "bbb",
+            "request": "launch",
+            "mainClass": "string2.bbb",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "ccc",
+            "request": "launch",
+            "mainClass": "string2.ccc",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "ddd",
+            "request": "launch",
+            "mainClass": "string2.ddd",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "deep",
+            "request": "launch",
+            "mainClass": "string2.deep",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "q1(3)",
+            "request": "launch",
+            "mainClass": "string2.q1",
+            "projectName": "100-days-code challenge_a6012692"
+        },
+        {
+            "type": "java",
+            "name": "inventory",
+            "request": "launch",
+            "mainClass": "xyxy.inventory",
+            "projectName": "100-days-code challenge_a6012692"
+        }
+    ]
+}
